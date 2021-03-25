@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CalculatorAndArea</string>
+    <string-array name="operator">
+        <item>+</item>
+        <item>-</item>
+        <item>x</item>
+        <item>:</item>
+    </string-array>
+</resources>
