@@ -34,7 +34,6 @@ public class MainActivity extends AppCompatActivity {
         listAdapter = new ListAdapter(this, persons, R.layout.listview);
         listView.setAdapter(listAdapter);
         add.setOnClickListener(v -> add());
-        remove.setOnClickListener(v -> remove());
     }
 
     private void add(){
@@ -59,13 +58,4 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    private void remove(){
-        for (int i = 0; i < persons.size(); i++) {
-            if (listAdapter.get.get(i).isChecked()){
-
-            } else {
-
-            }
-        }
-    }
 }
